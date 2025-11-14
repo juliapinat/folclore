@@ -1,4 +1,12 @@
-     header {
+ body {
+      background: #fff8dc;
+      font-family: 'Comic Sans MS';
+      color: #5c3d00;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
       background-color: #ffcc00;
       padding: 20px;
       text-align: center;
