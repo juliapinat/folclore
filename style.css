@@ -1,18 +1,8 @@
- body {
-      background: #fff8dc;
-      font-family: 'Comic Sans MS';
-      color: #5c3d00;
-      margin: 0;
-      padding: 0;
-    }
-    header {
+     header {
       background-color: #ffcc00;
       padding: 20px;
       text-align: center;
       border-bottom: 5px dashed #d2691e;
-    }
-    h2{
-        color: #5c3d00;
     }
     h1 {
       font-size: 2.5em;
