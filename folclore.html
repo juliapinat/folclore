@@ -1,85 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Folclore</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-  /* body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    header {
-      background-color: #4CAF50;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 2em;
-    }
-
-    main {
-      flex: 1;
-      padding: 20px;
-    }
-
-    section {
-      margin-bottom: 30px;
-    }
-
-    h2 {
-      color: #333;
-    }
-
-    .voltar {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      font-size: 1em;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .voltar:hover {
-      background-color: #45a049;
-    } */
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas típicas do Nordeste</title>
+    <link rel="stylesheet" href="folclore.css">
 </head>
+
 <body>
-  <header>
-    <h1>Folclore</h1>
+    <header>
+  <h1> Comidas Típicas do Nordeste</h1>
+  <button class="botao-voltar" onclick="history.back()">Voltar</button>
   </header>
 
-  <main>
-    <section class="principal">
-      <h2>Lenda do Quibungo</h2>
-      <p>
-        A lenda do <strong>Quibungo</strong> é muito contada na Bahia. 
-        Segundo a tradição, trata-se de um monstro que persegue crianças rebeldes. 
-        Sua aparência lembra a do bicho-papão: peludo como um lobo, feio e malvado, 
-        com uma enorme boca cheia de dentes localizada nas costas. 
-        Ele persegue as crianças que se recusam a dormir ou que fazem malcriações, 
-        e quando as captura, devora-as.
-      </p>
-    </section>
+  <div class="container">
+    <div class="card">
+      <h2>Cuscuz Nordestino</h2>
+      <img src="cuscuz.jpg" alt="Cuscuz Nordestino">
+      <p>O cuscuz tem raízes africanas e indígenas. Feito com flocos de milho cozidos no vapor, é servido com manteiga, ovos ou carne seca.</p>
+    </div>
 
-    <section class="principal">
-      <h2>Outras Lendas</h2>
-      <p>
-        O Nordeste também abriga outras figuras folclóricas marcantes, como a 
-        <strong>Comadre Fulozinha</strong>, protetora das matas, e o temido 
-        <strong>Papa-Figo</strong>, que assusta crianças com sua fama de devorador de fígados.
-      </p>
-    </section>
-  </main>
+    <div class="card">
+      <h2>Tapioca</h2>
+      <img src="tapioca.jpg" alt="Tapioca Nordestina">
+      <p>Com origem indígena, a tapioca é feita da goma da mandioca. Pode ser recheada com coco, queijo, presunto ou leite condensado.</p>
+    </div>
+  </div>
 
-  <button class="voltar" onclick="history.back()">Voltar</button>
+
+
+   <footer>
+    <h2 style="color: #5c3d00;">Organização: Colégio 11 de Outubro</h2>
+    <h3>Faça uma doação!</h3>
+    <p>Nossa escola está aceitando Arroz, Milho, Açucar e Óleo</p>
+    <p>Telefone: (43) 3251-3228</p>
+    <p>WhatsApp: (43) 9 9126-1857 </p>
+    <p>E-mail: cabonzedeoutubro@seed.pr.gov.br</p>
+  </footer>
+
 </body>
 </html>
