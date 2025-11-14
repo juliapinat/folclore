@@ -1,56 +1,79 @@
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
- 
  body {
-            font-family: 'Comic Sans MS';
-            margin: 0;
-            background-color: #fdf6e3;
-            color: #333;
-        }
-        header {
-            background-color: #ee7919;
-            padding: 15px;
-            text-align: center;
-        }
-        header{
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        header nav a:hover {
-            text-decoration: underline;
-        }
-         nav, ul, li, a {
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 20px;
-            margin: 0 15px;
-        }
-        main {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-       .principal{
-            background-color: white;
-            margin-bottom: 20px;
-            padding: 15px;
-            border-left: 5px solid #d2691e;
-            border-radius: 5px;
-            box-shadow: 0 0 5px #ffefb0;
-        }
-        footer {
-            background-color: #ee7919;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            margin-top: 30px;
-        }
+      background: #fff8dc;
+      font-family: 'Comic Sans MS';
+      color: #5c3d00;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 5px dashed #d2691e;
+    }
+    h2{
+        color: #5c3d00;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    nav, ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 20px;
+    }
+
+    nav, ul, li {
+    margin: 0 15px;
+    }
+
+    nav, ul, li, a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    }
+    nav,ul, li, a:hover{
+      color: #5c3d00;
+    }
+
+    main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+   }
+   .principal {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #d2691e;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffcc00;
+}
+
+.principal, h2 {
+    margin-bottom: 10px;
+    color: #5c3d00;
+}
+
+#regras{
+  color: #000000;
+
+}
+    section {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #ffcc00;
+      text-align: center;
+      padding: 10px;
+      border-top: 5px dashed #d2691e;
+    }
          .voltar {
       position: fixed;
       bottom: 20px;
